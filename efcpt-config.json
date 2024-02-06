@@ -1,0 +1,237 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/ErikEJ/EFCorePowerTools/master/samples/efcpt-schema.json",
+  "code-generation": {
+    "enable-on-configuring": false,
+    "type": "all",
+    "use-database-names": false,
+    "use-data-annotations": false,
+    "use-nullable-reference-types": true,
+    "use-inflector": false,
+    "use-legacy-inflector": false,
+    "use-many-to-many-entity": false,
+    "use-t4": false,
+    "t4-template-path": null,
+    "remove-defaultsql-from-bool-properties": false,
+    "soft-delete-obsolete-files": false,
+    "use-alternate-stored-procedure-resultset-discovery": false,
+    "merge-dacpacs": false,
+    "use-decimal-data-annotation-for-sproc-results": true,
+    "remove-valuegeneratedonadd": false,
+    "generate-mermaid-diagram": false,
+    "refresh-object-lists": true
+  },
+  "names": {
+    "root-namespace": "apiBillFold",
+    "dbcontext-name": "BilleteraCMContext",
+    "dbcontext-namespace": null,
+    "model-namespace": null
+  },
+  "file-layout": {
+    "output-path": "Models",
+    "output-dbcontext-path": null
+  },
+  "tables": [
+    {
+      "name": "[billfold].[Usuario]"
+    },
+    {
+      "name": "[billfold].[Empresa]"
+    },
+    {
+      "name": "[billfold].[empresaSocia]"
+    },
+    {
+      "name": "[billfold].[saldodisponible]"
+    },
+    {
+      "name": "[billfold].[usuarioExterno]"
+    },
+    {
+      "name": "[billfold].[usuarioTelefono]"
+    },
+    {
+      "name": "[billfold].[usuarioMail]"
+    },
+    {
+      "name": "[billfold].[usuarioDireccion]"
+    },
+    {
+      "name": "[billfold].[bitacora]"
+    },
+    {
+      "name": "[billfold].[administrador]"
+    },
+    {
+      "name": "[billfold].[empresaFinanciamiento]"
+    },
+    {
+      "name": "[billfold].[promocion]"
+    },
+    {
+      "name": "[billfold].[usuarioTarjeta]"
+    },
+    {
+      "name": "[billfold].[cuenta_empresa]"
+    },
+    {
+      "name": "[billfold].[cuenta_empresa_movimiento]"
+    },
+    {
+      "name": "[billfold].[tipoTransaccion]"
+    },
+    {
+      "name": "[billfold].[detalleMenu]"
+    },
+    {
+      "name": "[billfold].[Funciones]"
+    },
+    {
+      "name": "[billfold].[MENU]"
+    },
+    {
+      "name": "[billfold].[menuSuperior]"
+    },
+    {
+      "name": "[billfold].[pais]"
+    },
+    {
+      "name": "[billfold].[roladministrador]"
+    },
+    {
+      "name": "[billfold].[Roles]"
+    },
+    {
+      "name": "[billfold].[rolFuncion]"
+    },
+    {
+      "name": "[billfold].[turno]"
+    },
+    {
+      "name": "[billfold].[categoria]"
+    },
+    {
+      "name": "[billfold].[movimiento_diario]"
+    },
+    {
+      "name": "[billfold].[tienda]"
+    },
+    {
+      "name": "[billfold].[textos_mail]"
+    },
+    {
+      "name": "[billfold].[configuracion]"
+    },
+    {
+      "name": "[billfold].[grupo]"
+    },
+    {
+      "name": "[billfold].[detallegrupo]"
+    },
+    {
+      "name": "[billfold].[token]"
+    },
+    {
+      "name": "[billfold].[orden]"
+    },
+    {
+      "name": "[billfold].[institucionesfinancieras]"
+    },
+    {
+      "name": "[billfold].[tiposCuenta]"
+    },
+    {
+      "name": "[billfold].[tipoEmpresa]"
+    },
+    {
+      "name": "[billfold].[Campana]"
+    },
+    {
+      "name": "[billfold].[camposTarjetaRegalo]"
+    },
+    {
+      "name": "[billfold].[categoriaTarjetaRegalo]"
+    },
+    {
+      "name": "[billfold].[tarjetaRegalo]"
+    },
+    {
+      "name": "[billfold].[transaccionesCampana]"
+    },
+    {
+      "name": "[billfold].[cuentaLiquidacion]"
+    },
+    {
+      "name": "[billfold].[usuario_cuenta]"
+    },
+    {
+      "name": "[billfold].[usuario_movimiento]"
+    },
+    {
+      "name": "[billfold].[autorizacion]"
+    },
+    {
+      "name": "[billfold].[invitacionesPendientes]"
+    }
+  ],
+  "views": [],
+  "stored-procedures": [
+    {
+      "name": "[billfold].[validarCliente]"
+    },
+    {
+      "name": "[billfold].[agregarUsuario]"
+    },
+    {
+      "name": "[billfold].[realizarTransaccion]"
+    },
+    {
+      "name": "[billfold].[ManejoIngresoEmpleado]"
+    },
+    {
+      "name": "[billfold].[ManejoIngreso]"
+    },
+    {
+      "name": "[billfold].[updateContrasenaEmpleado]"
+    },
+    {
+      "name": "[billfold].[obtenerMenuAdministrador]"
+    },
+    {
+      "name": "[billfold].[updateContrasena]"
+    },
+    {
+      "name": "[billfold].[obtenerMenu]"
+    },
+    {
+      "name": "[billfold].[crearCliente]"
+    },
+    {
+      "name": "[billfold].[buscarCliente]"
+    },
+    {
+      "name": "[billfold].[getAsociacionDetallePais]"
+    },
+    {
+      "name": "[billfold].[agregarAdministrador]"
+    },
+    {
+      "name": "[billfold].[generarToken]"
+    },
+    {
+      "name": "[billfold].[validarToken]"
+    },
+    {
+      "name": "[billfold].[getTokenByMail]"
+    },
+    {
+      "name": "[billfold].[getNumeroOrden]"
+    },
+    {
+      "name": "[billfold].[validarExistenciaUsuario]"
+    },
+    {
+      "name": "[billfold].[actualizarAutorizacion]"
+    }
+  ],
+  "functions": []
+}
