@@ -5,8 +5,8 @@ namespace apiBillFold.Externo
 {
 	public class clsSMS
 	{
-        private static readonly string awsKeyId = "AKIAYALPCNIOAXJO5KPL"; //Access Key for the user.
-        private static readonly string awsKeySecret = "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"; //Secret Access Key for the user.
+        private static readonly string awsKeyId = ""; //Access Key for the user.
+        private static readonly string awsKeySecret = ""; //Secret Access Key for the user.
         private static readonly string messageType = "Transactional";
 
 
